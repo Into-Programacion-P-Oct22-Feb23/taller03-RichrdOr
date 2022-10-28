@@ -3,27 +3,32 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package ejercicio03;
+package ejercicio07;
 
 /**
  *
- * @author reroes
+ * @author UTPL
  */
-public class Ejercicio03 {
+public class Ejercicio07 {
 
     /**
      * @param args the command line arguments
      */
     public static void main(String[] args) {
         // TODO code application logic here
-        int var1 = 10;
-        int var2 = 2;
-        int var3 = 16;
-        int var4 = 20;
-        int var5 = 1;
-        int var6 = 11;
+        int a = 81;
+        int b = 9;
+        int c = 3;
+        int d = 9;
+        int e = 10;
+        int f = 1;
+        int g = 100;
+        int h = 25;
+        int i = 100;
         
-        System.out.println((Math.pow(10, 2) + (Math.sqrt(var3) + (20) / (1) + (11))));
+        
+        System.out.println(((Math.sqrt(a)) + (b) / (c) == (d))|| ((e)> (f)) && ((g) / (h)>(Math.sqrt(i))));
+        
     }
     
 }
